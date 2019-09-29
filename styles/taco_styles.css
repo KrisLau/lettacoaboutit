@@ -1,0 +1,179 @@
+@charset "utf-8"
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #A7D2CB;
+	font-family: 'Raleway', Tahoma, Geneva, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+header img{
+	width: 10%;
+	float: left;
+}
+
+.horizontal{
+	margin-bottom: 5%;
+}
+
+.horizontal ul{
+	padding: 50px 0px 50px 0px;
+	width: 100%;
+}
+
+.horizontal li{
+	width: 16%;
+	float: left;
+	padding: 15px;
+	display: block;
+	text-align: center;
+	background-color: rgb(242, 211, 136);
+	font-size: 1.2em;
+	letter-spacing: 3px;
+}
+
+.horizontal li:hover{
+	opacity: 0.8;
+	font-size: 1.3em;
+}
+
+.horizontal ul ul li{
+	border: none;
+	width: 30%;
+}
+
+.title{
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 2em;
+	text-align: center;
+	width:100%;
+	clear: both;
+}
+
+footer{
+	padding-top: 2%;
+	margin: 0% 20% 0% 20%;
+	clear: both;
+	text-align: center;
+}
+
+footer li{
+	float: left;
+	display: block;
+	width: 15%;
+}
+
+footer img{
+	width: 30%;
+	border-radius: 50px;
+}
+
+
+.dropbtn {
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(242, 211, 136);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	top: 100%;
+	left:20%;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+	colo: orange;
+}
+
+.show {display:block;}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* ============================================
+	Mobile Devices: 0 - 480 pixels
+   ============================================
+*/
+@media only screen and (max-width:480px){
+	.horizontal{
+		-ms-flex-order: 99;
+		order: 99;
+		float:none;
+	}	
+	
+	.horizontal li{
+		width: 100%;
+	}
+	
+	footer{
+		margin: 0px;
+		width: 100%;
+	}
+	
+	footer img{
+		width:80%;
+	}
+}
+	
+	
+	
+/*	===================================================
+	Tablet and Desktop Devices: Greater than 480 pixels
+	===================================================
+*/
+@media only screen and (min-width: 481px){
+	.horizontal{
+		height: 40px;
+		width: 100%;
+	}
+
+	.horizontal li{
+		flex: 1 1 auto;
+	}
+}

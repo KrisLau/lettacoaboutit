@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>		
+		<link href="../styles/taco_styles.css" rel="stylesheet"/>		
+		<link href="../styles/about_styles.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Raleway" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+		<header>
+			<a href = "about.html"><img src="https://goo.gl/P7ZMJR" alt="Let's Taco Bout It"/></a>
+			
+			<nav class="horizontal">
+				<ul>
+					<li><a href = "about.html">About</a></li>
+					<li><a href = "../index.html">Home</a></li>				
+					<li class="dropdown">
+						<a class="dropbtn" onclick="myFunction()">Reviews</a>
+						
+						<div id="content" class="dropdown-content">
+							<a href="reviews.html">Reviews</a>
+							<a href="videos.html">Videos</a>
+						</div>
+					</li>
+
+					<li><a href = "recipes.html">Recipes</a></li>
+					<li>
+						<a href = "map.html">The Foodie's Map</a>
+					</li>
+				</ul>						
+			</nav>
+		</header>
+	
+		<section>
+			<h1 class="title">About</h1>
+			
+			<article class="column" id="left">				
+				<img src="../images/me.jpg" alt="Picture"/>	
+			</article>
+		
+			<article class="column" id = "mid">
+				<h3>Who are you?</h3>
+				<p><strong>I am the human equivalent of a panda or a sloth.</strong><br> 
+				But I am not lazy, I'm just <em>conserving energy.</em><br>
+				Among my greatest talents is sleeping.<br>
+				I'm so good that I can even do it with my eyes closed.<br>
+				There's not much else to know about me if I'm being honest.</p>
+			
+				<h3>What is this blog even about?</h3>
+				<p> This blog is all about the greatest simple pleasure known to man... FOOD! 
+				After all, what can be more enjoyable than sitting down with some close friends 
+				and chatting about anything and everything under the sun, all while having a 
+				great meal. That is the great thing is that no matter where you go, there's always amazing food to eat. 
+				Every town has their own specialty and I'll be showing you all the local favourites.</p>
+				
+				<h3>How can I contact you?</h3>
+				<p>Just email me over at <a href="mailto:kristinlaumayhui@gmail.com" target="_blank" title="kristinlaumayhui@gmail.com">
+				kristinlaumayhui@gmail.com</a>&Hat;&lowbar;&Hat;</p>
+			</article>
+		</section>
+		
+		<aside class="column" id="right">
+			<form id= "survey" action="#" method="post">
+				<fieldset id="custInfo">
+					<legend>Contact Me</legend>
+					
+					<div class="formRow">
+						<label for="name">Name*</label> 
+						<input name="custName" id="name" type="text" placeholder="first and last name" required /> 
+					</div> 
+
+					<div class="formRow"> 
+						<label for="mail">E-mail*</label>
+						<input name="custEmail" id="mail" type="email" required /> 
+					</div>
+					
+					<label for="info">Where did you hear about us?</label> 
+					<select name="infoSrc" id="info" size="5" multiple> 
+						<option value="internet">Internet</option> 
+						<option value="mag">Magazine</option> 
+						<option value="news">Newspaper</option> 
+						<option value="word">Word of Mouth</option> 
+						<option value="other">Other</option> 
+					</select> 
+					
+					<div class="formRow"> 
+					<input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+					<label for="mailCB">Add me to your mailing list.</label>
+					</div>
+				</fieldset>		
+				
+				<div id="buttons">
+					<input type="submit" value="Submit" />
+					<input type="reset" value="Cancel" />
+				</div>
+			</form>
+		</aside>
+				
+		<footer>
+			<ul>
+				<li><a href = "https://www.facebook.com/LetsTacoBoutItByTastemade/" target="_blank"><img src="../images/sns/facebook.jpg" alt="Facebook"/></a></li>
+				<li><a href = "https://www.instagram.com/letstacoboutitblog/" target="_blank"><img src="../images/sns/instagram.jpg" alt="Instagram"/></a></li>
+				<li><a href = "https://www.snapchat.com/" target="_blank"><img src="../images/sns/snapchat.jpg" alt="Snapchat"/></a></li>
+				<li><a href = "https://twitter.com/tacoboutitblog" target="_blank"><img src="../images/sns/twitter.jpg" alt="Twitter"/></a></li>
+				<li><a href = "https://www.whatsapp.com/" target="_blank"><img src="../images/sns/whatsapp.jpg" alt="Whatsapp"/></a></li>
+				<li><a href = "https://www.youtube.com/watch?v=XT46FV64dr8" target="_blank"><img src="../images/sns/youtube.jpg" alt="Youtube"/></a></li>	
+			</ul>
+		</footer>		
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>		
+		<script src="../styles/top.js"></script>	
+		<script src="../styles/dropdown.js"></script>
+	</body>
+</html>

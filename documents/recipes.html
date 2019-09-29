@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Recipes</title>		
+		
+		<link href="../styles/taco_styles.css" rel="stylesheet"/>
+		<link href="../styles/recipes_styles.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Raleway" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="../js/modernizr.custom.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<a href = "about.html"><img src="https://goo.gl/P7ZMJR" alt="Let's Taco Bout It"/></a>
+			
+			<nav class="horizontal">
+				<ul>
+					<li><a href = "about.html">About</a></li>
+					<li><a href = "../index.html">Home</a></li>				
+					<li class="dropdown">
+						<a class="dropbtn" onclick="myFunction()">Reviews</a>
+						
+						<div id="content" class="dropdown-content">
+							<a href="reviews.html">Reviews</a>
+							<a href="videos.html">Videos</a>
+						</div>
+					</li>
+
+					<li><a href = "recipes.html">Recipes</a></li>
+					<li>
+						<a href = "map.html">The Foodie's Map</a>
+					</li>
+				</ul>						
+			</nav>
+		</header>
+		
+		<section>
+			<h1 class="title">Recipes</h1>
+			
+			<article>
+				<h4>Click on the blue dots on any of the polaroids below to see their recipe!<h4>
+		
+				<img src="../images/food.png" usemap="#image-map">
+
+				<map name="image-map">
+					<area target="_blank" alt="Apam Balik" title="Apam Balik" href="https://cookwithmi.wixsite.com/cookwithmi/single-post/2017/10/31/Apam-Balik" coords="34,439,22" shape="circle">
+					<area target="_blank" alt="Char Kway Teow" title="Char Kway Teow" href="http://www.geniuskitchen.com/recipe/penang-char-kway-teow-32468" coords="468,437,23" shape="circle">
+					<area target="_blank" alt="Fried Rice" title="Fried Rice" href="http://honestcooking.com/nasi-goreng-malaysian-fried-rice-recipe/" coords="906,438,24" shape="circle">
+				</map>
+			</article>
+		</section>
+				
+		<footer>
+			<ul>
+				<li><a href = "https://www.facebook.com/LetsTacoBoutItByTastemade/" target="_blank"><img src="../images/sns/facebook.jpg" alt="Facebook"/></a></li>
+				<li><a href = "https://www.instagram.com/letstacoboutitblog/" target="_blank"><img src="../images/sns/instagram.jpg" alt="Instagram"/></a></li>
+				<li><a href = "https://www.snapchat.com/" target="_blank"><img src="../images/sns/snapchat.jpg" alt="Snapchat"/></a></li>
+				<li><a href = "https://twitter.com/tacoboutitblog" target="_blank"><img src="../images/sns/twitter.jpg" alt="Twitter"/></a></li>
+				<li><a href = "https://www.whatsapp.com/" target="_blank"><img src="../images/sns/whatsapp.jpg" alt="Whatsapp"/></a></li>
+				<li><a href = "https://www.youtube.com/watch?v=XT46FV64dr8" target="_blank"><img src="../images/sns/youtube.jpg" alt="Youtube"/></a></li>	
+			</ul>
+		</footer>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>		
+		<script src="../styles/top.js"></script>	
+		<script src="../styles/dropdown.js"></script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+#map{
+	padding-left: 20%;
+}
+
+/* ============================================
+	Mobile Devices: 0 - 480 pixels
+   ============================================
+*/
+@media only screen and (max-width:480px){
+	#map{
+		width:100%;
+	}
+}

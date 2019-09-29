@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- 
+	Main page of Let's Taco Bout It 
+	Author: Kristin Lau
+	Date: 11/16/2017
+-->
+	<head>
+		<title>Let's Taco Bout It</title>
+		
+		<meta name="keywords" content="Food, Reviews, Blog">
+		<meta name="description" content="A food blog filled with cheesy puns.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link href="styles/taco_styles.css" rel="stylesheet"/>
+		<link href="styles/index_styles.css" rel="stylesheet"/>		
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header>
+			<a href = "documents/about.html"><img src="https://goo.gl/P7ZMJR" alt="Let's Taco Bout It"/></a>
+			
+			<nav class="horizontal">
+				<ul>
+					<li><a href = "documents/about.html">About</a></li>
+					<li><a href = "index.html">Home</a></li>				
+					<li class="dropdown">
+						<a class="dropbtn" onclick="myFunction()">Reviews</a>
+						
+						<div id="content" class="dropdown-content">
+							<a href="documents/reviews.html">Reviews</a>
+							<a href="documents/videos.html">Videos</a>
+						</div>
+					</li>
+
+					<li><a href = "documents/recipes.html">Recipes</a></li>
+					<li>
+						<a href = "documents/map.html">The Foodie's Map</a>
+					</li>
+				</ul>						
+			</nav>
+		</header>	
+		
+		<article>
+			<blockquote>
+				<p>“There is no sincerer love than the love of food.” <cite>-George Bernard Shaw</cite></p>
+			</blockquote>
+			
+			<a href = "documents/about.html"><div class="links" id="about">
+				<h1>Learn More</h1>
+				<p>Read about me and how this blog came to be.</p>
+			</div></a>
+			
+			<a href = "documents/reviews.html"><div class="links" id="reviews">
+				<h1>Reviews</h1>
+				<p>My irrelevant opinion on places I've stuffed my face at.</p>
+			</div></a>
+			
+			<a href = "documents/recipes.html"><div class="links" id="recipes">
+				<h1>Recipes</h1>
+				<p>Learn how to cook up a storm, <em>preferably without burning your house down.</em></p>
+			</div></a>
+						
+			<a href = "documents/map.html"><div class="links" id="foodiemap">
+				<h1>The Foodie Map</h1>
+				<p>Find your nearest gastronomical pleasure.</p>
+			</div></a>
+		</article>
+		
+		<footer>
+			<ul>
+				<li><a href = "https://www.facebook.com/LetsTacoBoutItByTastemade/" target="_blank"><img src="images/sns/facebook.jpg" alt="Facebook"/></a></li>
+				<li><a href = "https://www.instagram.com/letstacoboutitblog/" target="_blank"><img src="images/sns/instagram.jpg" alt="Instagram"/></a></li>
+				<li><a href = "https://www.snapchat.com/" target="_blank"><img src="images/sns/snapchat.jpg" alt="Snapchat"/></a></li>
+				<li><a href = "https://twitter.com/tacoboutitblog" target="_blank"><img src="images/sns/twitter.jpg" alt="Twitter"/></a></li>
+				<li><a href = "https://www.whatsapp.com/" target="_blank"><img src="images/sns/whatsapp.jpg" alt="Whatsapp"/></a></li>
+				<li><a href = "https://www.youtube.com/watch?v=XT46FV64dr8" target="_blank"><img src="images/sns/youtube.jpg" alt="Youtube"/></a></li>	
+			</ul>
+		</footer>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>		
+		<script src="styles/top.js"></script>	
+		<script src="styles/dropdown.js"></script>
+	</body>
+</html>

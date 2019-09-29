@@ -1,0 +1,32 @@
+blockquote{
+	font-size: 2em;
+	text-align: center;
+}
+
+.links{
+	background-image: url("http://bit.ly/2zHOcNt");
+	background-size: contain;
+	text-align: center;
+	padding: 21% 0% 21% 0%;
+}
+
+#about{
+	background-color:#FFDFCB;
+}
+
+#reviews{
+	background-image: url("../images/reviews.png");
+	background-position: right bottom;
+	background-color:#C98474;
+}
+
+#recipes{
+	background-image: url("../images/recipes.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-color:#af7188;
+}
+
+#foodiemap{
+	background-color:#874C62;
+}
